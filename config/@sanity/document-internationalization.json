@@ -1,0 +1,15 @@
+{
+	"base": "ua",
+	"withTranslationsMaintenance": true,
+	"idStructure": "delimiter",
+	"referenceBehavior": "strong",
+	"languages": [
+		"ua",
+		"ru"
+	],
+	"fieldNames": {
+		"lang": "__i18n_lang",
+		"references": "__i18n_refs",
+		"baseReference": "__i18n_base"
+	}
+}
