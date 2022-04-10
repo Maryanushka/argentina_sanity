@@ -41,6 +41,7 @@ export default {
 			type: 'array',
 			of: [
 				{ type: 'imageText' },
+				{ type: 'benefits' },
 			]
 		},
 		{// description

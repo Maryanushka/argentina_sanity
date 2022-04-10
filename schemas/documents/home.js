@@ -1,12 +1,12 @@
-import { BsFileEarmarkMedical } from "react-icons/bs";
+import { BiHomeAlt } from "react-icons/bi";
 
 import SlugInput from 'sanity-plugin-better-slug'
 
 export default {
-	title: "Page",
-	name: "page",
+	title: "Home",
+	name: "home",
 	type: "document",
-	icon: BsFileEarmarkMedical,
+	icon: BiHomeAlt,
 	i18n: true,
 	groups: [
 		{
@@ -19,12 +19,6 @@ export default {
 			name: "title",
 			type: "string",
 			description: 'also used as link label',
-			validation: Rule => Rule.required(),
-		},
-		{// title
-			name: "place",
-			type: "number",
-			description: 'used to order navigation',
 			validation: Rule => Rule.required(),
 		},
 		{// uid
@@ -47,11 +41,8 @@ export default {
 			name: 'content',
 			type: 'array',
 			of: [
-				// { type: 'intro' },
-				// { type: 'sliderImage' },
-				// { type: 'sliderYoutube' },
-				// { type: 'articleList' },
-				// { type: 'serviceList' },
+				{ type: 'sliderImage' },
+				{ type: 'sliderYoutube' },
 				{ type: 'benefits' },
 				{ type: 'imageText' },
 			]

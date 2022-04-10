@@ -7,6 +7,11 @@ export default{
 	icon: SiSlides,
 	fields: [
 		{
+			title: "title",
+			name: "title",
+			type: "string",
+		},
+		{
 			name: 'list',
 			type: 'array',
 			of: [

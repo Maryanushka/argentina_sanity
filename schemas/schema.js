@@ -9,6 +9,9 @@ import page from './documents/page'
 import article from './documents/article'
 import service from './documents/service'
 import argentina from './documents/argentina'
+import migration from './documents/migration'
+import tourism from './documents/tourism'
+import home from './documents/home'
 
 // objects
 // import projectList from './objects/projectList'
@@ -25,6 +28,7 @@ import benefits from './objects/benefits'
 
 // items
 import benefitItem from './objects/items/benefitItem'
+import imageTextLink from './objects/items/imageTextLink'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -37,10 +41,12 @@ export default createSchema({
 		page,
 		service,
 		argentina,
-		// navbar,
+		tourism,
+		migration,
+		home,
 
 		block,
-		// articleList,
+		imageTextLink,
 		// serviceList,
 		contactForm,
 		youtube,

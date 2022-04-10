@@ -7,6 +7,11 @@ export default {
 	icon: MdInfo,
 	fields:[
 		{
+			title: "title",
+			name: "title",
+			type: "string",
+		},
+		{
 			name: 'text',
 			type: 'array',
 			of: [ 
@@ -17,6 +22,11 @@ export default {
 			name: "poster",
 			type: "image",
 		},
+		{
+			title: 'Button link',
+			name: 'buttonLink',
+			type: 'imageTextLink',
+		}
 	],
 	preview: {
 		prepare() {
