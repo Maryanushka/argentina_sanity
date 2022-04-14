@@ -52,6 +52,21 @@ export default {
 			name: 'metaTags',
 			type: 'metaTags',
 			group: 'metaTags'
-		}
-	]
+		},
+		
+	],
+	preview: {
+		select: {
+			title: 'title',
+			media: 'poster',
+			lang: '__i18n_lang',
+		},
+		prepare({ title, lang,  media }) {
+			return {
+				title: `${title}`,
+				subtitle: lang,
+				media,
+			};
+		},
+	},
 }

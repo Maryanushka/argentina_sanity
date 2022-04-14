@@ -21,7 +21,7 @@ export default {
 			description: 'also used as link label',
 			validation: Rule => Rule.required(),
 		},
-		{// title
+		{// place
 			name: "place",
 			type: "number",
 			description: 'used to order navigation',
@@ -65,12 +65,12 @@ export default {
 	preview: {
 		select: {
 			title: 'title',
-			media: 'poster',
+			lang: '__i18n_lang',
 		},
-		prepare({ title, media }) {
+		prepare({ title, lang }) {
 			return {
-				title: `${ title }`,
-				media,
+				title: `${title}`,
+				subtitle: lang,
 			};
 		},
 	},
