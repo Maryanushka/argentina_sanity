@@ -25,11 +25,12 @@
     "react": "^17.0",
     "react-dom": "^17.0",
     "react-icons": "^4.3.1",
+    "sanity-plugin-autocomplete-tags": "^1.0.2",
     "sanity-plugin-better-slug": "^1.0.0",
     "sanity-plugin-media": "^1.4.4",
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
-		"@sanity/cli": "^2.26.0"
-	}
+    "@sanity/cli": "^2.26.0"
+  }
 }
