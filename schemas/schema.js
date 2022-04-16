@@ -23,6 +23,7 @@ import metaTags from './objects/metaTags'
 import sliderImage from './objects/sliderImage'
 import sliderYoutube from './objects/sliderYoutube'
 import imageText from './objects/imageText'
+import titleText from './objects/titleText'
 import intro from './objects/intro'
 import benefits from './objects/benefits'
 
@@ -54,6 +55,7 @@ export default createSchema({
 		sliderImage,
 		sliderYoutube,
 		imageText,
+		titleText,
 		intro,
 		benefits,
 

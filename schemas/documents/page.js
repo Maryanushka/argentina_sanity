@@ -51,8 +51,8 @@ export default {
 				// { type: 'sliderImage' },
 				// { type: 'sliderYoutube' },
 				// { type: 'articleList' },
-				// { type: 'serviceList' },
 				{ type: 'benefits' },
+				{ type: 'titleText' },
 				{ type: 'imageText' },
 			]
 		},
