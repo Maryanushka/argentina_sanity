@@ -39,7 +39,7 @@ export default {
 				//Locks menu from creating new tags (defaults to false)
 				frozen: true,
 				//Preset of tags (defaults to empty)
-				preload: [{label: "Argentina", value: "argentina"}, {label: "Life", value: "life"}, {label: "Health", value: "health"}],
+				preload: [{label: "All", value: "all"}, {label: "Argentina", value: "argentina"}, {label: "Life", value: "life"}, {label: "Health", value: "health"}],
 				//Closes menu after tag selected (defaults to true)
 				closeMenuOnSelect: true
 			}
