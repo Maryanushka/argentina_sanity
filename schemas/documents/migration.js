@@ -42,6 +42,8 @@ export default {
 			of: [
 				{ type: 'benefits' },
 				{ type: 'imageText' },
+				{ type: 'cta' },
+				{ type: 'titleText' },
 			]
 		},
 		{// description

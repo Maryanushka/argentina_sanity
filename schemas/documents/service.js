@@ -40,8 +40,10 @@ export default {
 			name: 'content',
 			type: 'array',
 			of: [
-				{ type: 'imageText' },
 				{ type: 'benefits' },
+				{ type: 'imageText' },
+				{ type: 'cta' },
+				{ type: 'titleText' },
 			]
 		},
 		{// description

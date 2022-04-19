@@ -55,6 +55,8 @@ export default {
 			of: [
 				{ type: 'imageText' },
 				{ type: 'titleText' },
+				{ type: 'cta' },
+
 			]
 		},
 		{// description

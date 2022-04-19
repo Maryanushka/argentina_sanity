@@ -26,6 +26,7 @@ import imageText from './objects/imageText'
 import titleText from './objects/titleText'
 import intro from './objects/intro'
 import benefits from './objects/benefits'
+import cta from './objects/cta'
 
 // items
 import benefitItem from './objects/items/benefitItem'
@@ -58,6 +59,7 @@ export default createSchema({
 		titleText,
 		intro,
 		benefits,
+		cta,
 
 		// counterItem,
 		// projectItem,

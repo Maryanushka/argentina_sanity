@@ -52,8 +52,9 @@ export default {
 				// { type: 'sliderYoutube' },
 				// { type: 'articleList' },
 				{ type: 'benefits' },
-				{ type: 'titleText' },
 				{ type: 'imageText' },
+				{ type: 'cta' },
+				{ type: 'titleText' },
 			]
 		},
 		{// MetaTags

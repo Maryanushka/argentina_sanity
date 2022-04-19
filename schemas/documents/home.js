@@ -45,6 +45,7 @@ export default {
 				{ type: 'sliderYoutube' },
 				{ type: 'benefits' },
 				{ type: 'imageText' },
+				{ type: 'cta' },
 			]
 		},
 		{// MetaTags
